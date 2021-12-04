@@ -1,0 +1,266 @@
+@media (max-width: 1200px) {
+    .mane-page__icons {
+        flex-wrap: wrap;
+        bottom: -78px;
+    }
+
+    .icon {
+        margin-right: 200px;
+        margin-bottom: 5px;
+    }
+
+    .icon:nth-child(2) {
+        margin-right: 0;
+    }
+
+    .benefits_item {
+        margin: 0 auto;
+    }
+
+    .slick-arrow {
+        display: none;
+    }
+
+    .slick-next {
+        display: none;
+    }
+}
+
+@media (max-width: 1110px) {
+    .main-page__form {
+        display: none;
+    }
+
+    .main-page__img {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 0;
+        max-width: 70%;
+    }
+
+    .main-page__title {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 100%;
+        position: static;
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .main-page__description {
+        position: static;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .apply-ambassador__inner {
+        flex-direction: column;
+    }
+
+    .apply-ambassador-img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .benefits {
+        margin-bottom: 70px;
+    }
+
+    .apply-ambassador__items {
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .apply-ambassador__description {
+        display: block;
+    }
+
+    .review__item__inner::before {
+        display: none;
+    }
+
+    .application__inner {
+        background-image: none;
+    }
+}
+
+@media (max-width:995px) {
+    .clients__logo {
+        flex-basis: 220px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .review__inner {
+        flex-direction: column;
+    }
+
+    .stars {
+        justify-content: center;
+        padding: 15px 0;
+    }
+    /* .slick-arrow {
+        left: 54%;
+    }
+    .slick-prev {
+        left: 46%;
+    } */
+
+    .partner__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 815px) {
+
+    .main-page {
+        padding-bottom: 20px;
+        margin-bottom: 70px;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .btn {
+        margin-right: 0;
+    }
+
+    .main-page__inner {
+        padding-bottom: 15px;
+    }
+
+    .mane-page__icons {
+        display: block;
+        position: static;
+    }
+
+
+    .icon {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 8px 8px;
+    }
+
+    .icon:nth-child(2) {
+        margin-right: auto;
+    }
+
+    .icon:nth-child(4) {
+        margin: 0 auto 10px;
+    }
+
+    .apply-ambassador__items {
+        text-align: center;
+    }
+
+    .apply-ambassador__title.title {
+        text-align: center;
+    }
+
+    .partner__inner {
+        background-image: none;
+    }
+
+    .footer__item-policy {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 720px) {
+    .header__inner {
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu-items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .login {
+        display: block;
+    }
+
+    .header__logo {
+        width: 100%;
+    }
+
+    .item-title {
+        font-size: 22px;
+    }
+
+    .apply-ambassador {
+        margin-bottom: 70px;
+    }
+    
+    .questions {
+        margin-bottom: 70px;
+    }
+
+    .clients {
+        margin-bottom: 70px;
+    }
+
+    .partner {
+        display: none;
+    }
+
+    .reviews {
+        margin-bottom: 70px;
+    }
+    .news {
+        margin-bottom: 70px;
+    }
+
+    .application {
+        margin-bottom: 70px;
+    }
+
+    .footer__item-links {
+        display: none;
+    }
+
+    .footer__item {
+        padding-bottom: 20px;
+    }
+ 
+}
+
+@media (max-width: 555px) {
+
+    .login {
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .clients__items {
+        margin-top: 30px;
+        max-width: 40%;
+        margin: 40px auto 0;
+    }
+
+    .partner__title {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 428px) {
+    .app-store {
+        padding-bottom: 20px;
+    }
+}
